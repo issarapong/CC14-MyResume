@@ -1,0 +1,42 @@
+/* คุณสมบัติ
+ลิสเมนูแนวนอนควบคุมด้วย css+Hover effect
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+navbar ul {
+  list-style-type: none; /* ซ่อนจุด */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+navbar li {
+  float: left; /* กำหนดให้ ลิสเมนูเริ่มต้นจากด้านซ้ายสุด */
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333333; /* กำหนดให้เกิด action  เปลี่ยนเป็นอีกสี เมื่อมีการเอาเม้าไปชี้ */
+}
